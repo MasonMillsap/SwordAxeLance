@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ConnectController">
+   <children>
+      <Button fx:id="connect" layoutX="205.0" layoutY="116.0" mnemonicParsing="false" text="Connect" />
+      <TextField fx:id="fighterName" layoutX="118.0" layoutY="56.0" prefHeight="25.0" prefWidth="226.0" promptText="Name" />
+      <TextField fx:id="user2Ip" layoutX="119.0" layoutY="172.0" prefHeight="25.0" prefWidth="226.0" promptText="User 2 IP adress" visible="false" />
+      <TextField fx:id="portNum" layoutX="181.0" layoutY="219.0" prefHeight="25.0" prefWidth="103.0" promptText="Port Number" visible="false" />
+      <Button fx:id="continueGame" layoutX="199.0" layoutY="263.0" mnemonicParsing="false" text="Continue" visible="false" />
+   </children>
+</AnchorPane>
